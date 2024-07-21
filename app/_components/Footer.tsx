@@ -2,19 +2,13 @@
 
 import { useContext } from "react";
 import { motion } from "framer-motion";
-// import Link from "next/link";
-// import { useState } from "react";
 import { CursorContext } from "../contexts/CursorContext";
-// import { AiOutlineMenu } from "react-icons/ai";
-// import MobileNav from "./MobileNav";
-// import Nav from "./Nav";
 import Socials from "./Socials";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
 const Footer = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
-  // const [mobileNav, setMobileNav] = useState(false);
 
   return (
     <footer className="z-40 w-full bg-popover">
