@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Marcellus, Montserrat, Great_Vibes } from "next/font/google";
+import { Orbitron, Marcellus, Montserrat, Great_Vibes } from "next/font/google";
 import "./globals.css";
 // components
 import Header from "./_components/Header";
@@ -18,6 +18,12 @@ const greatVibes = Great_Vibes({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-greatVibes",
+});
+
+const orbitron = Orbitron({
+  subsets: ["latin"],
+  weight: ["400", "900"],
+  variable: "--font-orbitron",
 });
 
 const montserrat = Montserrat({
@@ -39,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-screen">
       <body
-        className={`${marcellus.variable} ${montserrat.variable} ${greatVibes.variable} dark overflow-x-hidden`}
+        className={`${marcellus.variable} ${montserrat.variable} ${greatVibes.variable} ${orbitron.variable} dark overflow-x-hidden`}
       >
         <CursorProvider>
           <Transition />

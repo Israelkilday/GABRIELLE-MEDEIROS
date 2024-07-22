@@ -4,9 +4,10 @@ import { useContext } from "react";
 import { motion } from "framer-motion";
 import { CursorContext } from "../contexts/CursorContext";
 import Socials from "./Socials";
-import { FaPhoneAlt } from "react-icons/fa";
-import { IoMdMail } from "react-icons/io";
+// import { FaPhoneAlt } from "react-icons/fa";
+// import { IoMdMail } from "react-icons/io";
 import { Separator } from "./ui/separator";
+import Link from "next/link";
 
 const Footer = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -23,14 +24,38 @@ const Footer = () => {
               className="flex h-full w-full flex-col items-start justify-between gap-2 pb-3 lg:flex-row xl:w-auto xl:items-center xl:justify-normal xl:gap-6 xl:pb-0"
             >
               {/* phone */}
-              <div className="flex items-center gap-2 text-muted-foreground">
+              {/* <div className="flex items-center gap-2 text-muted-foreground">
                 <FaPhoneAlt />
                 <span>85 9-1234-5678</span>
-              </div>
+              </div> */}
               {/* email */}
-              <div className="flex items-center gap-2 text-muted-foreground">
+              {/* <div className="flex items-center gap-2 text-muted-foreground">
                 <IoMdMail />
                 <span>info@youremail.com</span>
+              </div> */}
+
+              <div className="flex items-center gap-2 text-muted-foreground">
+                <p>
+                  &copy; {new Date().getFullYear()} GABRIELLE MEDIROS.{" "}
+                  <br className="xl:hidden" />
+                  Todos os direitos reservdos.
+                </p>
+              </div>
+
+              <div>
+                <p className="text-muted-foreground">
+                  <Link
+                    href="https://portfolioikdev-zeta-nine.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Desenvolvido por: &lt;/
+                    <span className="font-logoGuys text-primary-foreground">
+                      Israel Kilday
+                    </span>
+                    &gt;
+                  </Link>
+                </p>
               </div>
             </motion.div>
 

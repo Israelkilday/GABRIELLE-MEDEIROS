@@ -5,6 +5,7 @@ import { useContext } from "react";
 import { CursorContext } from "../contexts/CursorContext";
 import Image from "next/image";
 import ModalVideo from "../_components/ModalVideo";
+import Link from "next/link";
 
 const Home = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -53,7 +54,9 @@ const Home = () => {
                   onMouseLeave={mouseLeaveHandler}
                   className="btn btn-lg"
                 >
-                  Reserva e Marcação
+                  <Link href="https://www.instagram.com/gabriellemedeiros.oficial/">
+                    Reserva e Marcação
+                  </Link>
                 </motion.button>
 
                 <motion.div

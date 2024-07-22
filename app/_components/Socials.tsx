@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { BiMessageRoundedCheck } from "react-icons/bi";
 import { TbBrandLinktree } from "react-icons/tb";
 
 interface SocialsProps {
@@ -11,7 +12,7 @@ const Socials = ({ containerStyles }: SocialsProps) => {
     <ul className={`${containerStyles}`}>
       <li>
         <Link href="https://api.whatsapp.com/send?phone=5585986270742">
-          <FaWhatsapp className="text-[28px]" />
+          <BiMessageRoundedCheck className="text-[28px]" />
         </Link>
       </li>
 

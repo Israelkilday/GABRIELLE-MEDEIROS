@@ -24,6 +24,7 @@ const config = {
       primary: "var(--font-marcellus)",
       secondary: "var(--font-montserrat)",
       logo: "var(--font-greatVibes)",
+      logoGuys: "var(--font-orbitron)",
     },
     extend: {
       colors: {
