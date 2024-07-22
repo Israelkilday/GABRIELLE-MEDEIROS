@@ -35,17 +35,17 @@ const MobileNav = ({ setMobileNav }: MobileNavProps) => {
   return (
     <nav className="relative flex h-full flex-col justify-between p-8">
       <div
-        className="cursor-pointer text-accent"
+        className="cursor-pointer text-primary-foreground"
         onClick={() => setMobileNav(false)}
       >
         <IoCloseOutline className="text-4xl" />
       </div>
-      <ul className="flex flex-col gap-10 text-xl text-white">
+      <ul className="flex flex-col gap-10 text-xl text-primary">
         {links.map((link, index) => {
           return (
             <li
               key={index}
-              className={`${pathName === link.href && "border-b-2 border-accent"} mx-auto max-w-max uppercase`}
+              className={`${pathName === link.href && "border-b-2 border-muted-foreground"} mx-auto max-w-max uppercase`}
             >
               <Link href={link.href}>{link.name}</Link>
             </li>
