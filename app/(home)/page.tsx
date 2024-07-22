@@ -5,7 +5,6 @@ import { useContext } from "react";
 import { CursorContext } from "../contexts/CursorContext";
 import Image from "next/image";
 import ModalVideo from "../_components/ModalVideo";
-// import Footer from "../_components/Footer";
 
 const Home = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
