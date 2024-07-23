@@ -44,6 +44,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-screen">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossOrigin=""
+        />
+      </head>
       <body
         className={`${marcellus.variable} ${montserrat.variable} ${greatVibes.variable} ${orbitron.variable} dark overflow-x-hidden`}
       >

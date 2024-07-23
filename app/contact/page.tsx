@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useContext } from "react";
 import { CursorContext } from "../contexts/CursorContext";
+import Link from "next/link";
+// import { MapContainer, TileLayer, useMap } from "react-leaflet";
 
 const Contact = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -47,10 +49,9 @@ const Contact = () => {
                 <div className="flex-1 pt-1">
                   <h4 className="h4 mb-2">Endereço</h4>
 
-                  <p className="leading-relaxed">
-                    123/45 Elm St, Suite 800
-                    <br />
-                    Caucai CE, 61601716
+                  <p className="leading-relaxed text-primary-foreground">
+                    R. 3, 299 - Curicaca, <br />
+                    Caucaia - CE, 61610-215
                   </p>
                 </div>
               </div>
@@ -69,9 +70,8 @@ const Contact = () => {
 
                 <div className="flex-1 pt-1">
                   <h4 className="h4 mb-2">Telefone</h4>
-                  <div className="flex-1 pt-1">
-                    <p>Fixo: (85) 9-1234 5678</p>
-                    <p>Zap: (85) 9-1234 5678</p>
+                  <div className="flex-1 pt-1 text-primary-foreground">
+                    <p>+55 (85) 9-8627 50742</p>
                   </div>
                 </div>
               </div>
@@ -91,15 +91,24 @@ const Contact = () => {
                 <div className="flex-1 pt-1">
                   <h4 className="h4 mb-2">Email</h4>
 
-                  <div className="flex flex-col gap-1">
-                    <p>info@seuemail.com</p>
-                    <p>suport@seuemail.com</p>
+                  <div className="flex flex-col gap-1 text-primary-foreground">
+                    <p>info@seuemail.com.br</p>
                   </div>
                 </div>
               </div>
               {/* end item */}
-              <button className="btn mx-auto xl:mx-0">
-                Agende seu Serviço
+              <button
+                onMouseEnter={mouseEnterHandler}
+                onMouseLeave={mouseLeaveHandler}
+                className="btn mx-auto xl:mx-0 xl:mb-10"
+              >
+                <Link
+                  href="https://www.instagram.com/gabriellemedeiros.oficial/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Agende seu Serviço
+                </Link>
               </button>
             </div>
           </motion.div>
