@@ -5,7 +5,6 @@ import Image from "next/image";
 import { useContext } from "react";
 import { CursorContext } from "../contexts/CursorContext";
 import Link from "next/link";
-// import { MapContainer, TileLayer, useMap } from "react-leaflet";
 
 const Contact = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -17,7 +16,7 @@ const Contact = () => {
       className="flex min-h-screen items-center overflow-hidden"
     >
       <div className="container mx-auto pb-12 pt-24 xl:pb-0 xl:pt-32">
-        <div className="flex h-full flex-col gap-12 xl:flex-row">
+        <div className="flex h-full flex-col gap-8 xl:flex-row">
           {/* text */}
           <motion.div
             onMouseEnter={mouseEnterHandler}
@@ -30,11 +29,11 @@ const Contact = () => {
             }}
             className="flex flex-1 flex-col justify-center"
           >
-            <h3 className="h3 mb-8 text-center xl:text-left">
+            <h3 className="h3 mb-7 text-center xl:text-left">
               Informações de contato
             </h3>
             {/* items */}
-            <div className="item flex flex-col items-center gap-12 xl:items-start">
+            <div className="item flex flex-col items-center gap-8 xl:items-start">
               {/* item */}
               <div className="flex items-start gap-4">
                 {/* icon */}
@@ -89,10 +88,10 @@ const Contact = () => {
                 </div>
 
                 <div className="flex-1 pt-1">
-                  <h4 className="h4 mb-2">Email</h4>
+                  <h4 className="h4">Email</h4>
 
                   <div className="flex flex-col gap-1 text-primary-foreground">
-                    <p>info@seuemail.com.br</p>
+                    <p>yahoo@gabriellemedeiros.oficial.com.br</p>
                   </div>
                 </div>
               </div>
@@ -100,7 +99,7 @@ const Contact = () => {
               <button
                 onMouseEnter={mouseEnterHandler}
                 onMouseLeave={mouseLeaveHandler}
-                className="btn mx-auto xl:mx-0 xl:mb-10"
+                className="btn mx-auto mb-2 xl:mx-0 xl:mb-10"
               >
                 <Link
                   href="https://www.instagram.com/gabriellemedeiros.oficial/"
@@ -124,9 +123,21 @@ const Contact = () => {
             }}
             className="flex-1"
           >
-            <div className="mx-auto w-full max-w-[580px] bg-[#f0cfbc] p-10 xl:mx-0">
-              <h3 className="h3 mb-8 text-center">Visitenos</h3>
-              mapa
+            <div className="mx-auto w-full max-w-[580px] xl:mx-0 xl:translate-x-[-25px] xl:translate-y-[60px]">
+              <div
+                className="relative overflow-hidden rounded-xl"
+                style={{ paddingBottom: "56.25%" }}
+              >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.4368293994994!2d-38.661273300000005!3d-3.7144778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0b53723897e59%3A0x9878f8f29075266f!2sR.%203%2C%20299%20-%20Curicaca%2C%20Caucaia%20-%20CE%2C%2061610-215!5e0!3m2!1spt-BR!2sbr!4v1721769336214!5m2!1spt-BR!2sbr"
+                  width="600"
+                  height="450"
+                  loading="lazy"
+                  className="absolute left-0 top-0 h-full w-full border-0"
+                ></iframe>
+              </div>
+
+              {/* <Map /> */}
             </div>
           </motion.div>
         </div>
