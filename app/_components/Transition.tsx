@@ -34,7 +34,7 @@ const Transition = () => {
                 delay: 0.2,
               }}
               // className="relative h-full w-full bg-[#e2cfbd]"
-              className="relative h-full w-full bg-[#0a0908]"
+              className="relative h-full w-full bg-popover"
             />
           </div>
         </div>

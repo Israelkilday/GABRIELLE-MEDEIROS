@@ -38,7 +38,7 @@ const Footer = () => {
                 <p>
                   &copy; {new Date().getFullYear()} GABRIELLE MEDIROS.{" "}
                   <br className="xl:hidden" />
-                  Todos os direitos reservdos.
+                  Todos os direitos reservados.
                 </p>
               </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                   >
                     Desenvolvido por: &lt;/
-                    <span className="font-logoGuys text-primary-foreground">
+                    <span className="font-logoGuys tracking-widest text-primary-foreground">
                       Israel Kilday
                     </span>
                     &gt;

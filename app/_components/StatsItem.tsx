@@ -15,7 +15,7 @@ const StartItem = ({ countNum, countText, text }: StatsItemProps) => {
         <span>{countText}</span>
       </div>
 
-      <p className="text-lg">{text}</p>
+      <p className="text-lg text-primary-foreground">{text}</p>
     </div>
   );
 };

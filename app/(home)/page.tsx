@@ -100,8 +100,6 @@ const Home = () => {
           </div>
         </div>
       </motion.section>
-
-      {/* <Footer /> */}
     </>
   );
 };
