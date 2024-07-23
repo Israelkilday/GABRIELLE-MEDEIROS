@@ -16,7 +16,7 @@ const About = () => {
       animate={{ opacity: 1, transition: { delay: 2 } }}
       className="flex min-h-screen items-center overflow-x-hidden"
     >
-      <div className="container mx-auto flex items-center pb-12 pt-24 xl:pb-0 xl:pt-24">
+      <div className="container mx-auto flex items-center pb-12 pt-24 xl:pb-0 xl:pt-20">
         <div className="flex h-full w-full flex-col items-center justify-between xl:flex-row">
           {/* image */}
           <motion.div

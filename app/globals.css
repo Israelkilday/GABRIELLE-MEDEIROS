@@ -66,7 +66,7 @@
     @apply text-[44px] leading-none xl:text-[60px] xl:leading-[72px];
   }
   .h2 {
-    @apply text-[40px] leading-[50px];
+    @apply text-[38px] leading-[48px] xl:text-[40px] xl:leading-[50px];
   }
   .h3 {
     @apply text-[36px] leading-[48px];

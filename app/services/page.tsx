@@ -14,7 +14,7 @@ const Services = () => {
       animate={{ opacity: 1, transition: { delay: 2 } }}
       className="flex min-h-screen items-center overflow-hidden"
     >
-      <div className="container mx-auto flex items-center pb-12 pt-48 xl:pb-0 xl:pt-32">
+      <div className="container mx-auto flex items-center pb-12 pt-24 xl:pb-0 xl:pt-32">
         <div className="flex h-full w-full items-center justify-between">
           {/* text */}
           <motion.div
@@ -29,12 +29,12 @@ const Services = () => {
             className="mx-auto flex flex-col items-start text-center xl:max-w-[650px] xl:text-left"
           >
             <h2 className="h2 mx-auto mb-6 max-w-[540px] xl:max-w-none">
-              Indulge in our Luxurious Treatments
+              Conheça nossos principais serviços.
             </h2>
 
-            <p className="lead mx-auto max-w-[600px] xl:mx-0">
-              Toilaroded skincare solutions for a healthy complexion, offering
-              customized care for radiant skin
+            <p className="lead mx-auto max-w-[600px] text-primary-foreground xl:mx-0">
+              Transforme-se com Elegância: No nosso salão, cada serviço é uma
+              experiência única de beleza e bem-estar.
             </p>
             {/* items */}
             <div className="mx-auto mb-14 grid grid-cols-1 gap-[20px] md:grid-cols-2 xl:mx-0">
@@ -46,7 +46,7 @@ const Services = () => {
                   <h3 className="text-2xl">Service1</h3>
                 </div>
 
-                <p>
+                <p className="text-primary-foreground">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Nulla harum distinctio molestiae,
                 </p>
@@ -61,7 +61,7 @@ const Services = () => {
                   <h3 className="text-2xl">Service2</h3>
                 </div>
 
-                <p>
+                <p className="text-primary-foreground">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Nulla harum distinctio molestiae,
                 </p>
@@ -76,7 +76,7 @@ const Services = () => {
                   <h3 className="text-2xl">Service3</h3>
                 </div>
 
-                <p>
+                <p className="text-primary-foreground">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Nulla harum distinctio molestiae,
                 </p>
@@ -91,7 +91,7 @@ const Services = () => {
                   <h3 className="text-2xl">Service4</h3>
                 </div>
 
-                <p>
+                <p className="text-primary-foreground">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Nulla harum distinctio molestiae,
                 </p>
