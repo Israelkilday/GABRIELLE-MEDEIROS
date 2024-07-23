@@ -14,7 +14,7 @@ const Contact = () => {
       animate={{ opacity: 1, transition: { delay: 2 } }}
       className="flex min-h-screen items-center overflow-hidden"
     >
-      <div className="container mx-auto pb-12 pt-48 xl:pb-0 xl:pt-32">
+      <div className="container mx-auto pb-12 pt-24 xl:pb-0 xl:pt-32">
         <div className="flex h-full flex-col gap-12 xl:flex-row">
           {/* text */}
           <motion.div
