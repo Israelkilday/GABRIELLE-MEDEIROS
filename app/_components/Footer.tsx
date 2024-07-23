@@ -21,7 +21,7 @@ const Footer = () => {
             <motion.div
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
-              className="flex h-full w-full flex-col items-start justify-between gap-2 pb-3 lg:flex-row xl:w-auto xl:items-center xl:justify-normal xl:gap-10 xl:pb-0"
+              className="flex h-full w-full flex-col items-center justify-between gap-2 pb-3 lg:flex-row xl:w-auto xl:justify-normal xl:gap-10 xl:pb-0"
             >
               {/* phone */}
               {/* <div className="flex items-center gap-2 text-muted-foreground">
@@ -65,11 +65,11 @@ const Footer = () => {
 
             {/* socials */}
             <motion.div
-              className=" "
+              className=""
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
             >
-              <Socials containerStyles="flex gap-6 text-primary-foreground" />
+              <Socials containerStyles="flex items-center justify-center gap-6 text-primary-foreground" />
             </motion.div>
           </div>
         </div>

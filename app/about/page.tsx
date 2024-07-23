@@ -16,7 +16,7 @@ const About = () => {
       animate={{ opacity: 1, transition: { delay: 2 } }}
       className="flex min-h-screen items-center overflow-x-hidden"
     >
-      <div className="container mx-auto flex items-center pb-12 pt-28 xl:pb-0 xl:pt-24">
+      <div className="container mx-auto flex items-center pb-12 pt-24 xl:pb-0 xl:pt-24">
         <div className="flex h-full w-full flex-col items-center justify-between xl:flex-row">
           {/* image */}
           <motion.div
@@ -28,7 +28,7 @@ const About = () => {
               x: 0,
               transition: { delay: 2, duration: 0.8, ease: "easeInOut" },
             }}
-            className="relative my-3 h-[350px] w-[250px] xl:mx-0 xl:h-[430px] xl:w-[330px]"
+            className="relative my-3 h-[275px] w-[380px] xl:mx-0 xl:h-[350px] xl:w-[480px]"
           >
             <Image
               src="/assets/about/img.jpg"
@@ -51,7 +51,7 @@ const About = () => {
             }}
             className="mx-auto flex flex-col items-start text-center xl:mx-0 xl:max-w-[650px] xl:text-left"
           >
-            <h2 className="h2 mx-auto mb-6 max-w-[540px] xl:max-w-none">
+            <h2 className="h2 mx-auto mb-5 max-w-[540px] xl:max-w-none">
               Transformando Cabelos, Realçando Confiança desde 2011
             </h2>
 
@@ -65,18 +65,22 @@ const About = () => {
             {/* items */}
             <div className="mx-auto mb-8 grid grid-cols-3 gap-[30px] xl:mx-0">
               <div>
-                <StatsItem countNum={13} countText="+" text="Years On Market" />
+                <StatsItem countNum={13} countText="+" text="Anos no Mercado" />
               </div>
 
               <div>
-                <StatsItem countNum={35} countText="k+" text="Happy Clients" />
+                <StatsItem
+                  countNum={35}
+                  countText="k+"
+                  text="Clientes Satisfeitos"
+                />
               </div>
 
               <div>
                 <StatsItem
                   countNum={97}
                   countText="%"
-                  text="Natural Igredients"
+                  text="Ingredientes Naturais"
                 />
               </div>
             </div>
@@ -85,7 +89,7 @@ const About = () => {
             <button
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
-              className="btn btn-lg"
+              className="btn mx-auto xl:mx-0"
             >
               <Link
                 href="https://www.instagram.com/gabriellemedeiros.oficial/"
