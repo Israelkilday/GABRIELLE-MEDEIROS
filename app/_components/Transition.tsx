@@ -22,7 +22,7 @@ const Transition = () => {
     <>
       <AnimatePresence mode="wait">
         <div key={pathName}>
-          <div className="top:0 left:0 pointer-events-none fixed right-0 z-50 hidden xl:flex xl:h-screen xl:w-screen">
+          <div className="top:0 left:0 pointer-events-none fixed right-0 z-50 flex h-screen w-screen">
             <motion.div
               variants={animation}
               initial="initial"
@@ -33,7 +33,8 @@ const Transition = () => {
                 ease: "easeInOut",
                 delay: 0.2,
               }}
-              className="relative h-full w-full bg-[#e2cfbd]"
+              // className="relative h-full w-full bg-[#e2cfbd]"
+              className="relative h-full w-full bg-[#0a0908]"
             />
           </div>
         </div>

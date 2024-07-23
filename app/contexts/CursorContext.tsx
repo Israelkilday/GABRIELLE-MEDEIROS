@@ -15,7 +15,6 @@ interface CursorProviderProps {
 }
 
 const CursorProvider = ({ children }: CursorProviderProps) => {
-  // const [cursor, setCursor] = useState({ size: 30, background: "#473936" });
   const [cursor, setCursor] = useState({ size: 30, background: "#473936" });
   const [isHovering, setIsHovering] = useState(false);
 

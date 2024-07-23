@@ -32,6 +32,10 @@ const MobileNav = ({ setMobileNav }: MobileNavProps) => {
 
   const pathName = usePathname();
 
+  const handleLinkClick = () => {
+    setMobileNav(false);
+  };
+
   return (
     <nav className="relative flex h-full flex-col justify-between p-8">
       <div
@@ -47,7 +51,9 @@ const MobileNav = ({ setMobileNav }: MobileNavProps) => {
               key={index}
               className={`${pathName === link.href && "border-b-2 border-muted-foreground"} mx-auto max-w-max uppercase`}
             >
-              <Link href={link.href}>{link.name}</Link>
+              <Link href={link.href} onClick={handleLinkClick}>
+                {link.name}
+              </Link>
             </li>
           );
         })}
