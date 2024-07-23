@@ -29,7 +29,7 @@ const Nav = () => {
         {links.map((link, index) => {
           return (
             <Link
-              className={`${pathName === link.href && "border-b-2 border-zinc-500"} uppercase text-primary`}
+              className={`${pathName === link.href && "border-b-2 border-muted-foreground"} uppercase text-primary`}
               key={index}
               href={link.href}
             >

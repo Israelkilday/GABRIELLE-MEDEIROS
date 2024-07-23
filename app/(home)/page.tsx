@@ -27,7 +27,7 @@ const Home = () => {
                 y: 0,
                 transition: { delay: 2, duration: 1, ease: "easeInOut" },
               }}
-              className="w-full pt-[100px] text-center xl:w-[500px] xl:pt-[120px] xl:text-left"
+              className="w-full pt-[100px] text-center md:pt-32 xl:w-[500px] xl:pt-[120px] xl:text-left"
             >
               <motion.h1
                 onMouseEnter={mouseEnterHandler}
@@ -54,7 +54,11 @@ const Home = () => {
                   onMouseLeave={mouseLeaveHandler}
                   className="btn btn-lg"
                 >
-                  <Link href="https://www.instagram.com/gabriellemedeiros.oficial/">
+                  <Link
+                    href="https://www.instagram.com/gabriellemedeiros.oficial/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Reserva e Marcação
                   </Link>
                 </motion.button>
@@ -68,6 +72,7 @@ const Home = () => {
               </div>
             </motion.div>
             {/* image */}
+            {/* xl:translate-x-32 xl:translate-y-[109px] */}
             <div className="flex-1 overflow-hidden">
               <motion.div
                 // initial={{ opacity: 0, bottom: "-100%" }}
@@ -80,16 +85,15 @@ const Home = () => {
                 }}
                 onMouseEnter={mouseEnterHandler}
                 onMouseLeave={mouseLeaveHandler}
-                // className="absolute bottom-0 right-[100px] hidden xl:flex"
-                className=""
+                className="bottom-0 right-20 xl:absolute"
               >
                 <Image
                   src={"/assets/home/img.png"}
-                  width={564}
-                  height={350}
+                  width={700}
+                  height={486}
                   quality={100}
                   alt="Imagem Home"
-                  className=""
+                  className="translate-x-11 xl:translate-x-32"
                 />
               </motion.div>
             </div>

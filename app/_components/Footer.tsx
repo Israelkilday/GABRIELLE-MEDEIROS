@@ -13,15 +13,15 @@ const Footer = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   return (
-    <footer className="z-40 w-full bg-popover">
-      <div className="mb-6 py-4 xl:mb-[50px] xl:h-[50px] xl:py-0">
+    <footer className="z-40 w-full bg-popover xl:absolute">
+      <div className="mb-6 py-4 xl:mb-0">
         <div className="container mx-auto h-full">
           <div className="h-full items-center justify-between text-left xl:flex">
             {/* phone e email */}
             <motion.div
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
-              className="flex h-full w-full flex-col items-start justify-between gap-2 pb-3 lg:flex-row xl:w-auto xl:items-center xl:justify-normal xl:gap-6 xl:pb-0"
+              className="flex h-full w-full flex-col items-start justify-between gap-2 pb-3 lg:flex-row xl:w-auto xl:items-center xl:justify-normal xl:gap-10 xl:pb-0"
             >
               {/* phone */}
               {/* <div className="flex items-center gap-2 text-muted-foreground">
