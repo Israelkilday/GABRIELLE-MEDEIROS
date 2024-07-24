@@ -10,6 +10,8 @@
 
 ## 🎬 Vídeo do projeto
 
+https://github.com/user-attachments/assets/301f2b83-8eb2-45b6-95a9-5a811d5fb147
+
 ## ⚙️ Pré-requisitos
 
 - **_Next.js_** (v14.0.0 ou superior)
