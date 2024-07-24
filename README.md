@@ -10,17 +10,19 @@
 
 ## 🎬 Vídeo do projeto
 
-https://github.com/Israelkilday/FOOD-EXPRESS/assets/101229204/7ed22cbb-594b-4150-95d2-96867a48a2e9
-
 ## ⚙️ Pré-requisitos
 
 - **_Next.js_** (v14.0.0 ou superior)
 - **_npm_** (v6.0.0 ou superior)
 
-## 🚀 Destaque:
+## 🚀 Destaques:
 
 - [x] **_Interface de usuário, navegação e design._**
 - Através da combinação de `Next.js` + `Tailwind` + `ShadCN/UI` foi criado uma interface moderna, atraente, intuitiva e totalmente responsiva.
+- [x] **Design Responsivo._**
+- A landing page é totalmente responsiva, garantindo uma experiência de usuário consistente em dispositivos móveis, tablets e desktops.
+- [x] **Modal com Vídeo._**
+- Um botão na página inicial abre um modal exibindo um vídeo promocional do salão.
 
   ## 🛠️ Principais Tecnologias
 
