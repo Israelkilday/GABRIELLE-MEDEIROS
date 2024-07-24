@@ -10,7 +10,7 @@ const Services = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   return (
-    <motion.section
+    <motion.main
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { delay: 2 } }}
       className="flex min-h-screen items-center overflow-hidden"
@@ -32,7 +32,7 @@ const Services = () => {
               Conheça nossos principais serviços.
             </h2>
 
-            <div className="mx-auto mb-8 mt-0 grid grid-cols-1 gap-[20px] md:grid-cols-2 xl:mx-0">
+            <section className="mx-auto mb-8 mt-0 grid grid-cols-1 gap-[20px] md:grid-cols-2 xl:mx-0">
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
                   <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div>
@@ -88,9 +88,9 @@ const Services = () => {
                   modelagem que proporcionam um acabamento impecável.
                 </p>
               </div>
-            </div>
+            </section>
 
-            <motion.div
+            <motion.section
               initial={{ opacity: 0, x: 60 }}
               animate={{
                 opacity: 1,
@@ -108,7 +108,7 @@ const Services = () => {
                 className="object-contain"
                 alt="image-services"
               />
-            </motion.div>
+            </motion.section>
 
             <button
               onMouseEnter={mouseEnterHandler}
@@ -125,7 +125,7 @@ const Services = () => {
             </button>
           </motion.div>
 
-          <motion.div
+          <motion.section
             initial={{ opacity: 0, x: 60 }}
             animate={{
               opacity: 1,
@@ -143,10 +143,10 @@ const Services = () => {
               className="object-contain xl:translate-y-[-30px]"
               alt="image-services"
             />
-          </motion.div>
+          </motion.section>
         </div>
       </div>
-    </motion.section>
+    </motion.main>
   );
 };
 

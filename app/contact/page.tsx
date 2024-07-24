@@ -10,7 +10,7 @@ const Contact = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   return (
-    <motion.section
+    <motion.main
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { delay: 2 } }}
       className="flex min-h-screen items-center overflow-hidden"
@@ -34,7 +34,7 @@ const Contact = () => {
               Informações de contato
             </motion.h3>
 
-            <div className="item mx-auto flex flex-col items-start gap-8 xl:mx-0 xl:items-start">
+            <section className="item mx-auto flex flex-col items-start gap-8 xl:mx-0 xl:items-start">
               <motion.div
                 onMouseEnter={mouseEnterHandler}
                 onMouseLeave={mouseLeaveHandler}
@@ -114,10 +114,10 @@ const Contact = () => {
                   Agende seu Serviço
                 </Link>
               </button>
-            </div>
+            </section>
           </motion.div>
 
-          <motion.div
+          <motion.section
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
             initial={{ opacity: 0, x: 60 }}
@@ -142,10 +142,10 @@ const Contact = () => {
                 ></iframe>
               </div>
             </div>
-          </motion.div>
+          </motion.section>
         </div>
       </div>
-    </motion.section>
+    </motion.main>
   );
 };
 

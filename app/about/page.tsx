@@ -11,14 +11,14 @@ const About = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   return (
-    <motion.section
+    <motion.main
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { delay: 2 } }}
       className="flex min-h-screen items-center overflow-x-hidden"
     >
       <div className="container mx-auto flex items-center pb-12 pt-24 xl:pb-0 xl:pt-20">
         <div className="flex h-full w-full flex-col items-center justify-between xl:flex-row">
-          <motion.div
+          <motion.section
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
             initial={{ opacity: 0, x: -60 }}
@@ -37,9 +37,9 @@ const About = () => {
               alt="image-page-about"
               className="object-contain"
             />
-          </motion.div>
+          </motion.section>
 
-          <motion.div
+          <motion.section
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
             initial={{ opacity: 0, x: 60 }}
@@ -62,7 +62,7 @@ const About = () => {
               excepcionais e saudáveis para os cabelos.
             </p>
 
-            <div className="mx-auto mb-8 grid grid-cols-3 gap-[30px] xl:mx-0">
+            <section className="mx-auto mb-8 grid grid-cols-3 gap-[30px] xl:mx-0">
               <div>
                 <StatsItem countNum={13} countText="+" text="Anos no Mercado" />
               </div>
@@ -82,7 +82,7 @@ const About = () => {
                   text="Ingredientes Naturais"
                 />
               </div>
-            </div>
+            </section>
 
             <button
               onMouseEnter={mouseEnterHandler}
@@ -97,10 +97,10 @@ const About = () => {
                 Fale Conosco
               </Link>
             </button>
-          </motion.div>
+          </motion.section>
         </div>
       </div>
-    </motion.section>
+    </motion.main>
   );
 };
 
