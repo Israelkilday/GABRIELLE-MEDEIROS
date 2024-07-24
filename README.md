@@ -1,9 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💃 GABRILLE MEDEIROS
 
-## Getting Started
+<a name="readme-top"></a>
 
-First, run the development server:
+<div align="center"><br>
 
+**_[GABRIELLE MEDEIROS](https://gabrielle-medeiros.vercel.app/)_** Este é um projeto freelancer desenvolvido para o salão de beleza Gabrielle Medeiros. O objetivo do projeto foi criar uma landing page moderna e funcional, destacando os serviços oferecidos pelo salão, com foco na especialidade de alisamento personalizado.
+
+ </div>
+
+## 🎬 Vídeo do projeto
+
+https://github.com/Israelkilday/FOOD-EXPRESS/assets/101229204/7ed22cbb-594b-4150-95d2-96867a48a2e9
+
+## ⚙️ Pré-requisitos
+
+- **_Next.js_** (v14.0.0 ou superior)
+- **_npm_** (v6.0.0 ou superior)
+
+## 🚀 Destaque:
+
+- [x] **_Interface de usuário, navegação e design._**
+- Através da combinação de `Next.js` + `Tailwind` + `ShadCN/UI` foi criado uma interface moderna, atraente, intuitiva e totalmente responsiva.
+
+  ## 🛠️ Principais Tecnologias
+
+- **_[Next.14](https://nextjs.org/)_**
+- **_[Typescript](https://www.typescriptlang.org/)_**
+- **_[React.js](https://pt-br.legacy.reactjs.org/)_**
+- **_[Contex API](https://legacy.reactjs.org/docs/context.html)_**
+- **_[React Icons](https://react-icons.github.io/react-icons/)_**
+- **_[JSX](https://pt-br.legacy.reactjs.org/docs/introducing-jsx.html)_**
+- **_[TailwindCSS](https://tailwindcss.com/)_**
+- **_[Shadcn/ui](https://ui.shadcn.com/)_**
+- **_[Vercel](https://vercel.com/docs)_**
+- **_[Husky](https://www.freecodecamp.org/portuguese/news/como-adicionar-hooks-de-commit-ao-git-com-husky-para-automatizar-tarefas/)_**
+- **_[ESLint](https://eslint.org/)_**
+- **_[Prettier](https://prettier.io/)_**
+- **_[Git](https://www.git-scm.com/)_**
+
+## 💻 Como Rodar o Projeto
+
+1.  Clone o repositório: `git clone https://github.com/Israelkilday/FOOD-EXPRESS`
+2.  Instale as dependências: `npm install`
+3.  Inicie o servidor de desenvolvimento:
 ```bash
 npm run dev
 # or
@@ -12,25 +51,55 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+```  
+5.  Abra o navegador e acesse `http://localhost:3000`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Estrutura de Diretórios
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `/app`: Código-fonte da aplicação.
+- `/public`: Arquivos públicos.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🤝 Contribuição
 
-## Learn More
+Se você deseja contribuir com este projeto, siga estas etapas:
 
-To learn more about Next.js, take a look at the following resources:
+1. Fork o repositório.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Crie uma branch para sua contribuição:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```shell
+   git checkout -b minha-contribuicao
 
-## Deploy on Vercel
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Faça suas alterações e commit:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```shell
+   git commit -m 'Minha contribuição'
+
+   ```
+
+4. Envie sua branch:
+
+   ```shell
+    git push origin minha-contribuicao
+
+   ```
+
+5. Abra uma solicitação pull.
+
+## 🔗 Link do Projeto
+
+https://gabrielle-medeiros.vercel.app/
+
+## 🧠 Autor
+
+israel.kilday@yahoo.com.br
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/israel-kilday-machado-de-souza-801482230) <a href="mailto:israelkilday27@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+</a>
+
+### Obrigado por visitar meu projeto! 👋
+
+ <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
