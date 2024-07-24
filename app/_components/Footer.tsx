@@ -22,7 +22,7 @@ const Footer = () => {
             >
               <div className="flex items-center gap-2 text-muted-foreground">
                 <p>
-                  &copy; {new Date().getFullYear()} GABRIELLE MEDIROS.{" "}
+                  &copy; {new Date().getFullYear()} GABRIELLE MEDEIROS.{" "}
                   <br className="xl:hidden" />
                   Todos os direitos reservados.
                 </p>
