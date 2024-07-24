@@ -30,8 +30,12 @@
 - **_[Typescript](https://www.typescriptlang.org/)_**
 - **_[React.js](https://pt-br.legacy.reactjs.org/)_**
 - **_[Contex API](https://legacy.reactjs.org/docs/context.html)_**
+- **_[React Countup](https://www.npmjs.com/package/react-countup)_**
+- **_[React Player](https://www.npmjs.com/package/react-player)_**
+- **_[React Responsive](https://www.npmjs.com/package/react-responsive?activeTab=readme)_**
 - **_[React Icons](https://react-icons.github.io/react-icons/)_**
 - **_[JSX](https://pt-br.legacy.reactjs.org/docs/introducing-jsx.html)_**
+- **_[Framer Motion](https://www.framer.com/motion/)_**
 - **_[TailwindCSS](https://tailwindcss.com/)_**
 - **_[Shadcn/ui](https://ui.shadcn.com/)_**
 - **_[Vercel](https://vercel.com/docs)_**
