@@ -117,7 +117,7 @@ const Services = () => {
               }}
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
-              className="relative mb-9 flex h-[400px] w-[400px] md:mx-auto xl:hidden"
+              className="relative mx-auto mb-9 flex h-[400px] w-[360px] xl:hidden"
             >
               <Image
                 src="/assets/treatments/img.jpg"

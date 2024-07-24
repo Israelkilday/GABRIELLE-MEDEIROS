@@ -105,7 +105,7 @@ const Contact = () => {
                   <h4 className="h4">Email</h4>
 
                   <div className="flex flex-col gap-1 text-primary-foreground">
-                    <p>yahoo@gabriellemedeiros.oficial.com.br</p>
+                    <p>gabrielleme@gmail.com</p>
                   </div>
                 </div>
               </motion.div>
