@@ -19,8 +19,6 @@ const Contact = () => {
         <div className="flex h-full flex-col gap-8 xl:flex-row">
           {/* text */}
           <motion.div
-            onMouseEnter={mouseEnterHandler}
-            onMouseLeave={mouseLeaveHandler}
             initial={{ opacity: 0, x: -60 }}
             animate={{
               opacity: 1,
@@ -29,13 +27,21 @@ const Contact = () => {
             }}
             className="flex flex-1 flex-col justify-center"
           >
-            <h3 className="h3 mb-7 text-center xl:text-left">
+            <motion.h3
+              onMouseEnter={mouseEnterHandler}
+              onMouseLeave={mouseLeaveHandler}
+              className="h3 mb-7 text-center xl:text-left"
+            >
               Informações de contato
-            </h3>
+            </motion.h3>
             {/* items */}
             <div className="item flex flex-col items-center gap-8 xl:items-start">
               {/* item */}
-              <div className="flex items-start gap-4">
+              <motion.div
+                onMouseEnter={mouseEnterHandler}
+                onMouseLeave={mouseLeaveHandler}
+                className="flex items-start gap-4"
+              >
                 {/* icon */}
                 <div className="relative h-[36px] w-[36px]">
                   <Image
@@ -53,11 +59,15 @@ const Contact = () => {
                     Caucaia - CE, 61610-215
                   </p>
                 </div>
-              </div>
+              </motion.div>
               {/* end item */}
 
               {/* item */}
-              <div className="flex items-start gap-4">
+              <motion.div
+                onMouseEnter={mouseEnterHandler}
+                onMouseLeave={mouseLeaveHandler}
+                className="flex items-start gap-4"
+              >
                 {/* icon */}
                 <div className="relative h-[36px] w-[36px]">
                   <Image
@@ -73,11 +83,15 @@ const Contact = () => {
                     <p>+55 (85) 9-8627 50742</p>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               {/* end item */}
 
               {/* item */}
-              <div className="flex items-start gap-4">
+              <motion.div
+                onMouseEnter={mouseEnterHandler}
+                onMouseLeave={mouseLeaveHandler}
+                className="flex items-start gap-4"
+              >
                 {/* icon */}
                 <div className="relative h-[36px] w-[36px]">
                   <Image
@@ -94,7 +108,7 @@ const Contact = () => {
                     <p>yahoo@gabriellemedeiros.oficial.com.br</p>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               {/* end item */}
               <button
                 onMouseEnter={mouseEnterHandler}

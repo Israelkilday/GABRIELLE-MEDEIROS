@@ -153,13 +153,13 @@ const Services = () => {
             }}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className="relative hidden h-[400px] w-[450px] xl:flex"
+            className="relative hidden h-[400px] w-[425px] xl:flex"
           >
             <Image
               src="/assets/treatments/img.jpg"
               fill
               quality={100}
-              className="object-contain"
+              className="object-contain xl:translate-y-[-30px]"
               alt="image-services"
             />
           </motion.div>
