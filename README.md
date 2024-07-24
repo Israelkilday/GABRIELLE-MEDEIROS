@@ -48,7 +48,7 @@ https://github.com/user-attachments/assets/301f2b83-8eb2-45b6-95a9-5a811d5fb147
 
 ## 💻 Como Rodar o Projeto
 
-1.  Clone o repositório: `git clone https://github.com/Israelkilday/FOOD-EXPRESS`
+1.  Clone o repositório: `git clone https://github.com/Israelkilday/GABRIELLE-MEDEIROS`
 2.  Instale as dependências: `npm install`
 3.  Inicie o servidor de desenvolvimento:
 ```bash
