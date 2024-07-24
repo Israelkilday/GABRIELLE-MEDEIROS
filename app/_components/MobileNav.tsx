@@ -44,6 +44,7 @@ const MobileNav = ({ setMobileNav }: MobileNavProps) => {
       >
         <IoCloseOutline className="text-4xl" />
       </div>
+
       <ul className="flex flex-col gap-10 text-xl text-primary">
         {links.map((link, index) => {
           return (

@@ -25,7 +25,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <div className="container mx-auto flex gap-8">
+      <section className="container mx-auto flex gap-8">
         {links.map((link, index) => {
           return (
             <Link
@@ -37,7 +37,7 @@ const Nav = () => {
             </Link>
           );
         })}
-      </div>
+      </section>
     </nav>
   );
 };

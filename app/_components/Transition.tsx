@@ -21,7 +21,7 @@ const Transition = () => {
   return (
     <>
       <AnimatePresence mode="wait">
-        <div key={pathName}>
+        <section key={pathName}>
           <div className="top:0 left:0 pointer-events-none fixed right-0 z-50 flex h-screen w-screen">
             <motion.div
               variants={animation}
@@ -36,7 +36,7 @@ const Transition = () => {
               className="relative h-full w-full bg-popover"
             />
           </div>
-        </div>
+        </section>
       </AnimatePresence>
     </>
   );

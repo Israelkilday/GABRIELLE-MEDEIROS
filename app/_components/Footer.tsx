@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="mb-6 py-4 xl:mb-0">
         <div className="container mx-auto h-full">
           <div className="h-full items-center justify-between text-left xl:flex">
-            <motion.div
+            <motion.section
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
               className="flex h-full w-full flex-col items-center justify-between gap-2 pb-3 lg:flex-row xl:w-auto xl:justify-normal xl:gap-10 xl:pb-0"
@@ -43,19 +43,19 @@ const Footer = () => {
                   </Link>
                 </p>
               </div>
-            </motion.div>
+            </motion.section>
 
             <div className="pb-4 xl:hidden">
               <Separator />
             </div>
 
-            <motion.div
+            <motion.section
               className=""
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
             >
               <Socials containerStyles="flex items-center justify-center gap-6 text-primary-foreground" />
-            </motion.div>
+            </motion.section>
           </div>
         </div>
       </div>

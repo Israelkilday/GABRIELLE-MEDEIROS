@@ -6,7 +6,7 @@ const ModalVideo = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <div className="flex cursor-pointer items-center gap-4 pb-2 xl:pb-0">
+        <section className="flex cursor-pointer items-center gap-4 pb-2 xl:pb-0">
           <button className="relative flex h-[50px] w-[50px] items-center justify-center rounded-full bg-yellow-50 shadow-2xl shadow-accent">
             <Image
               src="/assets/home/play.svg"
@@ -17,7 +17,7 @@ const ModalVideo = () => {
           </button>
 
           <span className="font-primary text-lg">Assistir Vídeo</span>
-        </div>
+        </section>
       </DialogTrigger>
 
       <DialogContent>

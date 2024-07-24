@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header className="fixed z-40 w-full bg-popover">
-      <div className="container mx-auto flex items-center justify-between px-6 py-4">
+      <main className="container mx-auto flex items-center justify-between px-6 py-4">
         <motion.div
           onMouseEnter={mouseEnterHandler}
           onMouseLeave={mouseLeaveHandler}
@@ -34,22 +34,22 @@ const Header = () => {
           <AiOutlineMenu className="text-3xl text-primary-foreground" />
         </div>
 
-        <motion.div
+        <motion.section
           initial={{ right: "-100%" }}
           animate={{ right: mobileNav ? 0 : "-100%" }}
           className="botton-0 fixed bottom-0 right-0 top-0 z-50 w-[330px] bg-popover xl:hidden"
         >
           <MobileNav setMobileNav={setMobileNav} />
-        </motion.div>
+        </motion.section>
 
-        <motion.div
+        <motion.section
           className="hidden xl:block"
           onMouseEnter={mouseEnterHandler}
           onMouseLeave={mouseLeaveHandler}
         >
           <Nav />
-        </motion.div>
-      </div>
+        </motion.section>
+      </main>
     </header>
   );
 };
