@@ -19,9 +19,9 @@
 
 - [x] **_Interface de usuário, navegação e design._**
 - Através da combinação de `Next.js` + `Tailwind` + `ShadCN/UI` foi criado uma interface moderna, atraente, intuitiva e totalmente responsiva.
-- [x] **Design Responsivo._**
+- [x] **_Design Responsivo._**
 - A landing page é totalmente responsiva, garantindo uma experiência de usuário consistente em dispositivos móveis, tablets e desktops.
-- [x] **Modal com Vídeo._**
+- [x] **_Modal com Vídeo._**
 - Um botão na página inicial abre um modal exibindo um vídeo promocional do salão.
 
   ## 🛠️ Principais Tecnologias
