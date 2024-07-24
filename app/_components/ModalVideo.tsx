@@ -26,7 +26,8 @@ const ModalVideo = () => {
           width={"100%"}
           controls
           playing
-          url="https://www.youtube.com/watch?v=5VvEe0nlx9w"
+          // url="https://www.youtube.com/watch?v=5VvEe0nlx9w"
+          url="/assets/home-video.mp4"
         />
       </DialogContent>
     </Dialog>

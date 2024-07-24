@@ -34,7 +34,7 @@ const Contact = () => {
               Informações de contato
             </motion.h3>
 
-            <div className="item flex flex-col items-center gap-8 xl:items-start">
+            <div className="item mx-auto flex flex-col items-start gap-8 xl:mx-0 xl:items-start">
               <motion.div
                 onMouseEnter={mouseEnterHandler}
                 onMouseLeave={mouseLeaveHandler}
@@ -42,19 +42,18 @@ const Contact = () => {
               >
                 <div className="relative h-[36px] w-[36px]">
                   <Image
-                    src="/assets/contact/pin.svg"
+                    src="/assets/contact/email.svg"
                     fill
                     alt="icon-contact"
                   />
                 </div>
 
                 <div className="flex-1 pt-1">
-                  <h4 className="h4 mb-2">Endereço</h4>
+                  <h4 className="h4">Email</h4>
 
-                  <p className="leading-relaxed text-primary-foreground">
-                    R. 3, 299 - Curicaca, <br />
-                    Caucaia - CE, 61610-215
-                  </p>
+                  <div className="flex flex-col gap-1 text-primary-foreground">
+                    <p>gabrielleme@gmail.com</p>
+                  </div>
                 </div>
               </motion.div>
 
@@ -86,18 +85,19 @@ const Contact = () => {
               >
                 <div className="relative h-[36px] w-[36px]">
                   <Image
-                    src="/assets/contact/email.svg"
+                    src="/assets/contact/pin.svg"
                     fill
                     alt="icon-contact"
                   />
                 </div>
 
                 <div className="flex-1 pt-1">
-                  <h4 className="h4">Email</h4>
+                  <h4 className="h4 mb-2">Endereço</h4>
 
-                  <div className="flex flex-col gap-1 text-primary-foreground">
-                    <p>gabrielleme@gmail.com</p>
-                  </div>
+                  <p className="leading-relaxed text-primary-foreground">
+                    R. 3, 299 - Curicaca, <br />
+                    Caucaia - CE, 61610-215
+                  </p>
                 </div>
               </motion.div>
 
