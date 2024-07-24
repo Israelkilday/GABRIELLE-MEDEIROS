@@ -17,7 +17,6 @@ const Contact = () => {
     >
       <div className="container mx-auto pb-12 pt-24 xl:pb-0 xl:pt-32">
         <div className="flex h-full flex-col gap-8 xl:flex-row">
-          {/* text */}
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             animate={{
@@ -34,15 +33,13 @@ const Contact = () => {
             >
               Informações de contato
             </motion.h3>
-            {/* items */}
+
             <div className="item flex flex-col items-center gap-8 xl:items-start">
-              {/* item */}
               <motion.div
                 onMouseEnter={mouseEnterHandler}
                 onMouseLeave={mouseLeaveHandler}
                 className="flex items-start gap-4"
               >
-                {/* icon */}
                 <div className="relative h-[36px] w-[36px]">
                   <Image
                     src="/assets/contact/pin.svg"
@@ -60,15 +57,12 @@ const Contact = () => {
                   </p>
                 </div>
               </motion.div>
-              {/* end item */}
 
-              {/* item */}
               <motion.div
                 onMouseEnter={mouseEnterHandler}
                 onMouseLeave={mouseLeaveHandler}
                 className="flex items-start gap-4"
               >
-                {/* icon */}
                 <div className="relative h-[36px] w-[36px]">
                   <Image
                     src="/assets/contact/phone.svg"
@@ -84,15 +78,12 @@ const Contact = () => {
                   </div>
                 </div>
               </motion.div>
-              {/* end item */}
 
-              {/* item */}
               <motion.div
                 onMouseEnter={mouseEnterHandler}
                 onMouseLeave={mouseLeaveHandler}
                 className="flex items-start gap-4"
               >
-                {/* icon */}
                 <div className="relative h-[36px] w-[36px]">
                   <Image
                     src="/assets/contact/email.svg"
@@ -109,7 +100,7 @@ const Contact = () => {
                   </div>
                 </div>
               </motion.div>
-              {/* end item */}
+
               <button
                 onMouseEnter={mouseEnterHandler}
                 onMouseLeave={mouseLeaveHandler}
@@ -125,7 +116,7 @@ const Contact = () => {
               </button>
             </div>
           </motion.div>
-          {/* map */}
+
           <motion.div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
@@ -150,8 +141,6 @@ const Contact = () => {
                   className="absolute left-0 top-0 h-full w-full border-0"
                 ></iframe>
               </div>
-
-              {/* <Map /> */}
             </div>
           </motion.div>
         </div>

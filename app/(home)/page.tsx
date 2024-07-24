@@ -19,7 +19,6 @@ const Home = () => {
       >
         <div className="container mx-auto">
           <div className="flex h-full flex-col items-center xl:flex-row">
-            {/* text */}
             <motion.div
               initial={{ opacity: 0, y: -100 }}
               animate={{
@@ -71,15 +70,11 @@ const Home = () => {
                 </motion.div>
               </div>
             </motion.div>
-            {/* image */}
-            {/* xl:translate-x-32 xl:translate-y-[109px] */}
             <div className="flex-1 overflow-hidden">
               <motion.div
-                // initial={{ opacity: 0, bottom: "-100%" }}
                 initial={{ opacity: 0, translateY: "100%" }}
                 animate={{
                   opacity: 1,
-                  // bottom: 0,
                   translateY: "0%",
                   transition: { delay: 2.4, duration: 1.2, ease: "easeInOut" },
                 }}

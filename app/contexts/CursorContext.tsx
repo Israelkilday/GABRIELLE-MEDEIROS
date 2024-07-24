@@ -4,7 +4,6 @@ import { useMotionValue, useSpring, motion } from "framer-motion";
 import { createContext, ReactNode, useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
-// create context
 export const CursorContext = createContext({
   mouseEnterHandler: () => {},
   mouseLeaveHandler: () => {},
@@ -45,7 +44,6 @@ const CursorProvider = ({ children }: CursorProviderProps) => {
   }, [cursor]);
 
   const mouseEnterHandler = () => {
-    // setCursor({ size: 90, background: "#00423a" });
     setCursor({ size: 90, background: "#ffffff" });
     setIsHovering(true);
   };

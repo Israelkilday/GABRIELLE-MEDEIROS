@@ -18,7 +18,6 @@ const About = () => {
     >
       <div className="container mx-auto flex items-center pb-12 pt-24 xl:pb-0 xl:pt-20">
         <div className="flex h-full w-full flex-col items-center justify-between xl:flex-row">
-          {/* image */}
           <motion.div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
@@ -39,7 +38,7 @@ const About = () => {
               className="object-contain"
             />
           </motion.div>
-          {/* text */}
+
           <motion.div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
@@ -62,7 +61,7 @@ const About = () => {
               majoritariamente produtos naturais, garantindo resultados
               excepcionais e saudáveis para os cabelos.
             </p>
-            {/* items */}
+
             <div className="mx-auto mb-8 grid grid-cols-3 gap-[30px] xl:mx-0">
               <div>
                 <StatsItem countNum={13} countText="+" text="Anos no Mercado" />
@@ -85,7 +84,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* button */}
             <button
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
@@ -99,7 +97,6 @@ const About = () => {
                 Fale Conosco
               </Link>
             </button>
-            {/* <button className="btn mx-auto xl:mx-0">Fale Conosco</button> */}
           </motion.div>
         </div>
       </div>

@@ -17,7 +17,6 @@ const Services = () => {
     >
       <div className="container mx-auto flex items-center pb-12 pt-24 xl:pb-0 xl:pt-32">
         <div className="flex h-full w-full items-center justify-between">
-          {/* text */}
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             animate={{
@@ -33,15 +32,7 @@ const Services = () => {
               Conheça nossos principais serviços.
             </h2>
 
-            {/* <p className="lead mx-auto hidden max-w-[600px] text-primary-foreground xl:mx-0">
-              Transforme-se com Elegância: No nosso salão, cada serviço é uma
-              experiência única de beleza e bem-estar.
-            </p> */}
-
-            {/* items */}
             <div className="mx-auto mb-8 mt-0 grid grid-cols-1 gap-[20px] md:grid-cols-2 xl:mx-0">
-              {/* <div className="md: mx-auto mb-8 mt-0 flex flex-col gap-[20px] xl:mx-0"> */}
-              {/* item */}
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
                   <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div>
@@ -55,9 +46,7 @@ const Services = () => {
                   o estilo pessoal de cada cliente.
                 </p>
               </div>
-              {/* end item */}
 
-              {/* item */}
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
                   <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div>
@@ -71,9 +60,7 @@ const Services = () => {
                   cores vibrantes e duradouras.
                 </p>
               </div>
-              {/* end item */}
 
-              {/* item */}
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
                   <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div>
@@ -87,9 +74,7 @@ const Services = () => {
                   estimular o crescimento.
                 </p>
               </div>
-              {/* end item */}
 
-              {/* item */}
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
                   <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div>
@@ -103,11 +88,8 @@ const Services = () => {
                   modelagem que proporcionam um acabamento impecável.
                 </p>
               </div>
-              {/* end item */}
             </div>
-            {/* btn */}
 
-            {/* image */}
             <motion.div
               initial={{ opacity: 0, x: 60 }}
               animate={{
@@ -128,7 +110,6 @@ const Services = () => {
               />
             </motion.div>
 
-            {/* <button className="btn mx-auto xl:mx-0">Saiba Mais</button> */}
             <button
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
@@ -143,7 +124,7 @@ const Services = () => {
               </Link>
             </button>
           </motion.div>
-          {/* image */}
+
           <motion.div
             initial={{ opacity: 0, x: 60 }}
             animate={{

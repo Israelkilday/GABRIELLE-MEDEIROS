@@ -33,7 +33,6 @@ const Transition = () => {
                 ease: "easeInOut",
                 delay: 0.2,
               }}
-              // className="relative h-full w-full bg-[#e2cfbd]"
               className="relative h-full w-full bg-popover"
             />
           </div>

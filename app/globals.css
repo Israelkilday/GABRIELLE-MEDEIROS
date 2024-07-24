@@ -83,7 +83,6 @@
 }
 
 .btn {
-  /* @apply flex h-[58px] min-w-[178px] items-center justify-center rounded-bl-[30px] rounded-br-[24px] rounded-tl-[30px] rounded-tr-[4px] bg-accent pl-8 pr-6 font-primary uppercase tracking-[1px] text-white; */
   @apply flex h-[53px] min-w-[178px] items-center justify-center rounded-bl-[30px] rounded-br-[24px] rounded-tl-[30px] rounded-tr-[4px] bg-[#c12348] pl-8 pr-6 font-primary uppercase tracking-[1px] text-white xl:h-[58px];
 }
 

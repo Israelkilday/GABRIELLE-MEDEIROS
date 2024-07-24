@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Orbitron, Marcellus, Montserrat, Great_Vibes } from "next/font/google";
 import "./globals.css";
-// components
 import Header from "./_components/Header";
 import CursorProvider from "./contexts/CursorContext";
 import Transition from "./_components/Transition";
