@@ -51,13 +51,13 @@ const Services = () => {
                 <div className="mb-2 flex items-center gap-[12px]">
                   <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div>
 
-                  <h3 className="text-2xl">Coloração e Mechas</h3>
+                  <h3 className="text-2xl">Depilação</h3>
                 </div>
 
                 <p className="text-primary-foreground">
-                  Aplicação de cor total, retoques de raiz, mechas, balayage e
-                  ombré. Utiliza-se produtos de alta qualidade para garantir
-                  cores vibrantes e duradouras.
+                  Desperte a sua beleza natural com a nossa depilação!
+                  Utilizamos técnicas modernas e produtos de alta qualidade para
+                  garantir um resultado impecável e duradouro.
                 </p>
               </div>
 
@@ -69,8 +69,8 @@ const Services = () => {
                 </div>
 
                 <p className="text-primary-foreground">
-                  Inclui hidratação profunda, reconstrução capilar, cauterização
-                  e tratamentos específicos para combater a queda de cabelo e
+                  Inclui hidratação profunda, tratamento personalizado, além de
+                  terapias específicas para combater a queda de cabelo e
                   estimular o crescimento.
                 </p>
               </div>

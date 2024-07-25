@@ -51,7 +51,7 @@ const About = () => {
             className="mx-auto flex flex-col items-start text-center xl:mx-0 xl:max-w-[650px] xl:text-left"
           >
             <h2 className="h2 mx-auto mb-5 max-w-[540px] xl:max-w-none">
-              Transformando Cabelos, Realçando Confiança desde 2011
+              Transformando Cabelos, Realçando Confiança desde 2008
             </h2>
 
             <p className="lead mx-auto mb-8 max-w-[600px] text-primary-foreground xl:mx-0">
@@ -64,7 +64,7 @@ const About = () => {
 
             <section className="mx-auto mb-8 grid grid-cols-3 gap-[30px] xl:mx-0">
               <div>
-                <StatsItem countNum={13} countText="+" text="Anos no Mercado" />
+                <StatsItem countNum={16} countText="+" text="Anos no Mercado" />
               </div>
 
               <div>

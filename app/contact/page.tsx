@@ -95,7 +95,7 @@ const Contact = () => {
                   <h4 className="h4 mb-2">Endereço</h4>
 
                   <p className="leading-relaxed text-primary-foreground">
-                    R. 3, 299 - Curicaca, <br />
+                    R. 3, 307 - Curicaca, <br />
                     Caucaia - CE, 61610-215
                   </p>
                 </div>
@@ -134,7 +134,7 @@ const Contact = () => {
                 style={{ paddingBottom: "56.25%" }}
               >
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.4368293994994!2d-38.661273300000005!3d-3.7144778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0b53723897e59%3A0x9878f8f29075266f!2sR.%203%2C%20299%20-%20Curicaca%2C%20Caucaia%20-%20CE%2C%2061610-215!5e0!3m2!1spt-BR!2sbr!4v1721769336214!5m2!1spt-BR!2sbr"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.4365289613434!2d-38.663893025026184!3d-3.7145443962593943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0b5372450b419%3A0xa76d8055632aa4f5!2sR.%203%2C%20307%20-%20Curicaca%2C%20Caucaia%20-%20CE%2C%2061601-708!5e0!3m2!1spt-BR!2sbr!4v1721920407544!5m2!1spt-BR!2sbr"
                   width="600"
                   height="450"
                   loading="lazy"
