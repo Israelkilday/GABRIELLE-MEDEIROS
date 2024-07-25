@@ -92,12 +92,18 @@ const Contact = () => {
                 </div>
 
                 <div className="flex-1 pt-1">
-                  <h4 className="h4 mb-2">Endereço</h4>
+                  <Link
+                    href="https://maps.app.goo.gl/gYkpPPJHbuBBJ2A28"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h4 className="h4 mb-2">Endereço</h4>
 
-                  <p className="leading-relaxed text-primary-foreground">
-                    R. 3, 307 - Curicaca, <br />
-                    Caucaia - CE, 61610-215
-                  </p>
+                    <p className="leading-relaxed text-primary-foreground">
+                      R. 3, 307 - Curicaca, <br />
+                      Caucaia - CE, 61610-215
+                    </p>
+                  </Link>
                 </div>
               </motion.div>
 
@@ -134,7 +140,7 @@ const Contact = () => {
                 style={{ paddingBottom: "56.25%" }}
               >
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.4365289613434!2d-38.663893025026184!3d-3.7145443962593943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0b5372450b419%3A0xa76d8055632aa4f5!2sR.%203%2C%20307%20-%20Curicaca%2C%20Caucaia%20-%20CE%2C%2061601-708!5e0!3m2!1spt-BR!2sbr!4v1721920407544!5m2!1spt-BR!2sbr"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15925.747339252215!2d-38.6613298!3d-3.7144766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0b561596310f1%3A0x2d1a53435b69ae99!2sSal%C3%A3o%20Gabrielle%20Medeiros%20especialista%20em%20alisamento!5e0!3m2!1spt-BR!2sbr!4v1721935084968!5m2!1spt-BR!2sbr"
                   width="600"
                   height="450"
                   loading="lazy"
