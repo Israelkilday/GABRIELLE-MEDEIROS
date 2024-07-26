@@ -35,7 +35,7 @@ const Services = () => {
             </h2>
 
             <section className="mx-auto mb-8 xl:mx-0">
-              <Card className="mb-4 flex flex-1 p-3 text-center">
+              <Card className="mb-5 flex flex-1 p-3 text-center">
                 <p className="text-primary-foreground">
                   Para alcançar o resultado com extrema qualidade, segurança e
                   durabilidade, nós iremos fazer o processo de avaliação,
