@@ -43,7 +43,7 @@ const Services = () => {
                 </p>
               </Card>
 
-              <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
+              <div className="mb-2 flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
                   <h3 className="text-2xl text-primary">
                     1 - Avaliação de Diagnóstico
@@ -70,14 +70,14 @@ const Services = () => {
                 <Separator />
               </div>
 
-              <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
+              <div className="mb-2 flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
                   <h3 className="text-2xl">
                     2 - Criação e Adaptação do Procedimento Ideal{" "}
                   </h3>
                 </div>
 
-                <p className="mb-2 text-primary-foreground">
+                <p className="text-primary-foreground">
                   Nessa fase, é necessário validar as informações da ficha de
                   anamnese em conjunto com o seu objetivo e, principalmente, com
                   base no que o seu cabelo já recebe diariamente, como
@@ -94,7 +94,7 @@ const Services = () => {
                   <h3 className="text-2xl">3 - Execução do Serviço</h3>
                 </div>
 
-                <p className="mb-2 text-primary-foreground">
+                <p className="text-primary-foreground">
                   Após o desenvolvimento do processo de alisamento, é hora de
                   colocar a mão na massa e entregar um resultado extraordinário.
                 </p>
