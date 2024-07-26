@@ -12,7 +12,7 @@ const links = [
   },
   {
     href: "/services",
-    name: "Serviços",
+    name: "Destaque",
   },
   {
     href: "/contact",

@@ -53,7 +53,6 @@
   }
   body {
     @apply bg-secondary font-secondary text-base text-primary;
-    /* @apply bg-background font-secondary text-base text-primary; */
   }
   h1,
   h2,

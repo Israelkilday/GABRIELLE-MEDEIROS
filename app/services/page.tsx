@@ -34,39 +34,23 @@ const Services = () => {
               Conheça nosso método:
             </h2>
 
-            {/* <section className="mx-auto mb-8 mt-0 grid grid-cols-1 gap-[20px] md:grid-cols-2 xl:mx-0"> */}
             <section className="mx-auto mb-8 xl:mx-0">
               <Card className="mb-4 flex flex-1 p-3 text-center">
-                {/* <h3 className="text-2xl">Corte de Cabelo</h3> */}
                 <p className="text-primary-foreground">
-                  {/* Serviços de corte de cabelo que variam desde cortes clássicos
-                  até os mais modernos, sempre considerando o formato do rosto e
-                  o estilo pessoal de cada cliente. */}
                   Para alcançar o resultado com extrema qualidade, segurança e
                   durabilidade, nós iremos fazer o processo de avaliação,
                   preparação e execução, que é baseado em 3 etapas mestres:
                 </p>
-
-                {/* <p className="text-primary-foreground">
-                  Serviços de corte de cabelo que variam desde cortes clássicos
-                  até os mais modernos, sempre considerando o formato do rosto e
-                  o estilo pessoal de cada cliente.
-                </p> */}
               </Card>
 
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
-                  {/* <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div> */}
-
                   <h3 className="text-2xl text-primary">
                     1 - Avaliação de Diagnóstico
                   </h3>
                 </div>
 
                 <p className="text-primary-foreground">
-                  {/* Desperte a sua beleza natural com a nossa depilação!
-                  Utilizamos técnicas modernas e produtos de alta qualidade para
-                  garantir um resultado impecável e duradouro. */}
                   É feita uma ficha de{" "}
                   <Link
                     href="https://blog.simplesagenda.com.br/86/ficha-de-anamnese-capilar"
@@ -88,16 +72,12 @@ const Services = () => {
 
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
-                  {/* <h3 className="text-2xl">2 Tratamentos Capilares</h3> */}
                   <h3 className="text-2xl">
                     2 - Criação e Adaptação do Procedimento Ideal{" "}
                   </h3>
                 </div>
 
                 <p className="mb-2 text-primary-foreground">
-                  {/* Inclui hidratação profunda, tratamento personalizado, além de
-                  terapias específicas para combater a queda de cabelo e
-                  estimular o crescimento. */}
                   Nessa fase, é necessário validar as informações da ficha de
                   anamnese em conjunto com o seu objetivo e, principalmente, com
                   base no que o seu cabelo já recebe diariamente, como
@@ -111,14 +91,10 @@ const Services = () => {
 
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
-                  {/* <h3 className="text-2xl">Escova e Finalização</h3> */}
                   <h3 className="text-2xl">3 - Execução do Serviço</h3>
                 </div>
 
                 <p className="mb-2 text-primary-foreground">
-                  {/* Serviços de escova (escova lisa, modelada, ondulada) e
-                  finalização para eventos especiais. Técnicas de secagem e
-                  modelagem que proporcionam um acabamento impecável. */}
                   Após o desenvolvimento do processo de alisamento, é hora de
                   colocar a mão na massa e entregar um resultado extraordinário.
                 </p>
