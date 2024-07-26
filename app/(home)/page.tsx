@@ -25,12 +25,12 @@ const Home = () => {
               y: 0,
               transition: { delay: 2, duration: 1, ease: "easeInOut" },
             }}
-            className="w-full pt-[100px] text-center md:pt-32 xl:w-[500px] xl:pt-[120px] xl:text-left"
+            className="w-full pt-[100px] text-center md:pt-32 xl:w-[500px] xl:pt-[60px] xl:text-left"
           >
             <motion.h1
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
-              className="h1 mb-3 xl:mb-6"
+              className="h1 mb-3 xl:mb-4"
             >
               Especialista em Alisamento
               <br /> Personalizado
@@ -41,9 +41,11 @@ const Home = () => {
               onMouseLeave={mouseLeaveHandler}
               className="lead mx-auto max-w-xl text-primary-foreground"
             >
-              Descubra o alisamento perfeito para você com nossa técnica
-              exclusiva, garantindo resultados incríveis e saudáveis para todos
-              os tipos de cabelo.
+              Nosso Método Exclusivo de Alisamento consiste na avaliação e
+              análise da necessidade de cada cliente para a escolha do melhor
+              procedimento e o melhor produto a ser utilizado no processo de
+              alisamento capilar, garantindo um liso perfeito, saudável e
+              duradouro!
             </motion.p>
 
             <div className="mx-auto flex max-w-max flex-col items-center gap-6 xl:mx-0 xl:flex-row">

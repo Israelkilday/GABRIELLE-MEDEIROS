@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useContext } from "react";
 import { CursorContext } from "../contexts/CursorContext";
+import { Card } from "../_components/ui/card";
+import { Separator } from "../_components/ui/separator";
 import Link from "next/link";
 
 const Services = () => {
@@ -15,7 +17,7 @@ const Services = () => {
       animate={{ opacity: 1, transition: { delay: 2 } }}
       className="flex min-h-screen items-center overflow-hidden"
     >
-      <div className="container mx-auto flex items-center pb-12 pt-24 xl:pb-0 xl:pt-32">
+      <div className="container mx-auto flex items-center pb-12 pt-24 xl:pb-0 xl:pt-28">
         <div className="flex h-full w-full items-center justify-between">
           <motion.div
             initial={{ opacity: 0, x: -60 }}
@@ -26,66 +28,99 @@ const Services = () => {
             }}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className="mx-auto flex flex-col items-start text-center xl:max-w-[720px] xl:text-left"
+            className="mx-auto flex flex-col items-start text-center xl:mx-0 xl:max-w-[620px] xl:text-left"
           >
-            <h2 className="h2 mx-auto mb-6 max-w-[540px] xl:mx-0 xl:max-w-none">
-              Conheça nossos principais serviços.
+            <h2 className="h2 mx-auto mb-2 max-w-[540px] xl:max-w-none">
+              Conheça nosso método:
             </h2>
 
-            <section className="mx-auto mb-8 mt-0 grid grid-cols-1 gap-[20px] md:grid-cols-2 xl:mx-0">
-              <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
-                <div className="mb-2 flex items-center gap-[12px]">
-                  <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div>
-
-                  <h3 className="text-2xl">Corte de Cabelo</h3>
-                </div>
-
+            {/* <section className="mx-auto mb-8 mt-0 grid grid-cols-1 gap-[20px] md:grid-cols-2 xl:mx-0"> */}
+            <section className="mx-auto mb-8 xl:mx-0">
+              <Card className="mb-4 flex flex-1 p-3 text-center">
+                {/* <h3 className="text-2xl">Corte de Cabelo</h3> */}
                 <p className="text-primary-foreground">
+                  {/* Serviços de corte de cabelo que variam desde cortes clássicos
+                  até os mais modernos, sempre considerando o formato do rosto e
+                  o estilo pessoal de cada cliente. */}
+                  Para alcançar o resultado com extrema qualidade, segurança e
+                  durabilidade, nós iremos fazer o processo de avaliação,
+                  preparação e execução, que é baseado em 3 etapas mestres:
+                </p>
+
+                {/* <p className="text-primary-foreground">
                   Serviços de corte de cabelo que variam desde cortes clássicos
                   até os mais modernos, sempre considerando o formato do rosto e
                   o estilo pessoal de cada cliente.
-                </p>
-              </div>
+                </p> */}
+              </Card>
 
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
-                  <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div>
+                  {/* <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div> */}
 
-                  <h3 className="text-2xl">Depilação</h3>
+                  <h3 className="text-2xl text-primary">
+                    1 - Avaliação de Diagnóstico
+                  </h3>
                 </div>
 
                 <p className="text-primary-foreground">
-                  Desperte a sua beleza natural com a nossa depilação!
+                  {/* Desperte a sua beleza natural com a nossa depilação!
                   Utilizamos técnicas modernas e produtos de alta qualidade para
-                  garantir um resultado impecável e duradouro.
+                  garantir um resultado impecável e duradouro. */}
+                  É feita uma ficha de{" "}
+                  <Link
+                    href="https://blog.simplesagenda.com.br/86/ficha-de-anamnese-capilar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary"
+                  >
+                    anamnese
+                  </Link>{" "}
+                  do seu cabelo, onde identificamos o seu histórico capilar,
+                  análise da textura, densidade, porosidade e condições do couro
+                  cabeludo.
                 </p>
+              </div>
+
+              <div className="py-3">
+                <Separator />
               </div>
 
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
-                  <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div>
-
-                  <h3 className="text-2xl">Tratamentos Capilares</h3>
+                  {/* <h3 className="text-2xl">2 Tratamentos Capilares</h3> */}
+                  <h3 className="text-2xl">
+                    2 - Criação e Adaptação do Procedimento Ideal{" "}
+                  </h3>
                 </div>
 
-                <p className="text-primary-foreground">
-                  Inclui hidratação profunda, tratamento personalizado, além de
+                <p className="mb-2 text-primary-foreground">
+                  {/* Inclui hidratação profunda, tratamento personalizado, além de
                   terapias específicas para combater a queda de cabelo e
-                  estimular o crescimento.
+                  estimular o crescimento. */}
+                  Nessa fase, é necessário validar as informações da ficha de
+                  anamnese em conjunto com o seu objetivo e, principalmente, com
+                  base no que o seu cabelo já recebe diariamente, como
+                  hidratações, reconstruções e produtos diários.
                 </p>
+              </div>
+
+              <div className="py-3">
+                <Separator />
               </div>
 
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
-                  <div className="h-[14px] w-[14px] rounded-bl-[28px] rounded-br-[22px] rounded-tl-[28px] rounded-tr-[4px] bg-accent"></div>
-
-                  <h3 className="text-2xl">Escova e Finalização</h3>
+                  {/* <h3 className="text-2xl">Escova e Finalização</h3> */}
+                  <h3 className="text-2xl">3 - Execução do Serviço</h3>
                 </div>
 
-                <p className="text-primary-foreground">
-                  Serviços de escova (escova lisa, modelada, ondulada) e
+                <p className="mb-2 text-primary-foreground">
+                  {/* Serviços de escova (escova lisa, modelada, ondulada) e
                   finalização para eventos especiais. Técnicas de secagem e
-                  modelagem que proporcionam um acabamento impecável.
+                  modelagem que proporcionam um acabamento impecável. */}
+                  Após o desenvolvimento do processo de alisamento, é hora de
+                  colocar a mão na massa e entregar um resultado extraordinário.
                 </p>
               </div>
             </section>
@@ -113,7 +148,7 @@ const Services = () => {
             <button
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
-              className="btn mx-auto xl:mx-0 xl:mb-10"
+              className="btn mx-auto xl:mx-0 xl:mb-10 xl:hidden"
             >
               <Link
                 href="https://www.instagram.com/gabriellemedeiros.oficial/"
@@ -134,7 +169,7 @@ const Services = () => {
             }}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className="relative hidden h-[400px] w-[425px] xl:flex"
+            className="relative hidden h-[450px] w-[380px] xl:flex"
           >
             <Image
               src="/assets/treatments/img.jpg"

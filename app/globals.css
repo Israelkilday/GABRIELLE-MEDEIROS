@@ -53,6 +53,7 @@
   }
   body {
     @apply bg-secondary font-secondary text-base text-primary;
+    /* @apply bg-background font-secondary text-base text-primary; */
   }
   h1,
   h2,
@@ -63,7 +64,7 @@
     @apply font-primary;
   }
   .h1 {
-    @apply text-[44px] leading-none xl:text-[60px] xl:leading-[72px];
+    @apply text-[44px] leading-none xl:text-[56px] xl:leading-[68px];
   }
   .h2 {
     @apply text-[36px] leading-[46px] xl:text-[40px] xl:leading-[50px];
