@@ -70,7 +70,7 @@ const Services = () => {
                 <Separator />
               </div>
 
-              <div className="mb-2 flex flex-1 flex-col items-center justify-center xl:items-start">
+              <div className="my-2 flex flex-1 flex-col items-center justify-center xl:items-start">
                 <div className="mb-2 flex items-center gap-[12px]">
                   <h3 className="text-2xl">
                     2 - Criação e Adaptação do Procedimento Ideal{" "}
@@ -90,7 +90,7 @@ const Services = () => {
               </div>
 
               <div className="flex flex-1 flex-col items-center justify-center xl:items-start">
-                <div className="mb-2 flex items-center gap-[12px]">
+                <div className="my-2 flex items-center gap-[12px]">
                   <h3 className="text-2xl">3 - Execução do Serviço</h3>
                 </div>
 
