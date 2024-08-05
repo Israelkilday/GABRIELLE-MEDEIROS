@@ -4,7 +4,7 @@
 
 <div align="center"><br>
 
-**_[GABRIELLE MEDEIROS](https://gabrielle-medeiros.vercel.app/)_** Este é um projeto freelancer desenvolvido para o salão de beleza Gabrielle Medeiros. O objetivo do projeto foi criar uma landing page moderna e funcional, destacando os serviços oferecidos pelo salão, com foco na especialidade de alisamento personalizado.
+**_[GABRIELLE MEDEIROS](https://gabrielle-medeiros.vercel.app/)_** É um projeto freelancer desenvolvido para o salão de beleza Gabrielle Medeiros. O objetivo do projeto foi criar uma landing page moderna e funcional, destacando os serviços oferecidos pelo salão, com foco na especialidade de alisamento personalizado.
 
  </div>
 
